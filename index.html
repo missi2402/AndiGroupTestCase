@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title></title>
+		<title>Your Website</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta name="author" content="Antoniuk">
 		<link href="css/style.css" rel="stylesheet">
@@ -13,7 +13,34 @@
 		<header>
 			<div class="container">
 				<div class="row">
-					
+					<nav class="navbar">
+						<button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
+					    &#9776;
+						</button>
+						<a class="navbar-brand" href="#"><img src="img/header-logo.png" alt="Your Website"></a>
+						<div class="collapse navbar-toggleable-md pull-xl-right" id="exCollapsingNavbar2">
+					    <ul class="nav navbar-nav text-uppercase">
+					    	<li class="nav-item active">
+					        	<a class="nav-link" href="#">Home</a>
+					    	</li>
+					    	<li class="nav-item">
+					    		<a class="nav-link" href="#">Products</a>
+					    	</li>
+					    	<li class="nav-item">
+					    		<a class="nav-link" href="#">F.A.Q.</a>
+					    	</li>
+					    	<li class="nav-item">
+								<a class="nav-link" href="#">Company</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Contact</a>
+							</li>
+					    </ul>
+					  </div>
+					</nav>
 				</div>
 			</div>
 		</header>
@@ -75,13 +102,13 @@
 				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 last-content-block">
 					<section>
 						<img src="img/menu-clock-icon.png" alt="Lorem ipsum">
-						<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum iaculis arcu ut interdum. Aliquam erat volutpat. </span>
+						<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum iaculis arcu ut interdum. Aliquam erat volutpat. </div>
 					</section>
 				</div>	
 				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 last-content-block">
 					<section>
 						<img src="img/menu-coffee-icon.png" alt="Lorem ipsum">
-						<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum iaculis arcu ut interdum. Aliquam erat volutpat. </span>
+						<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum iaculis arcu ut interdum. Aliquam erat volutpat. </div>
 					</section>
 				</div>					
 			</div>			
@@ -90,17 +117,29 @@
 	<footer>
 		<div class="container">
 			<div class="row">
-				<img src="img/footer-twitter-icon.png" alt="twitter">
-				<ul class="nav nav-inline text-uppercase">
-					<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-					<li class="nav-item"><a class="nav-link" href="#">Products</a></li>
-					<li class="nav-item"><a class="nav-link" href="#">F.A.Q.</a></li>
-					<li class="nav-item"><a class="nav-link" href="#">Company</a></li>
-					<li class="nav-item"><a class="nav-link" href="#">About</a></li>
-					<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-				</ul>
-				<span>Copyright Yoursite.com | All Rights Reserved</span>
-				<a href="#"><img src="img/header-logo.png" alt="YourWebsite"></a>
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+				<section class="speech-twitter">		
+					<img src="img/footer-twitter-icon.png" alt="twitter">
+					<div class="bubble">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						</p>
+						<span>Posted 4 Days Ago</span>
+					</div>
+				</section>
+				</div>
+				<div class="col-xl-8 col-lg-8 col-md-6 col-sm-12 col-xs-12 bottom-nav">
+					<ul class="nav nav-inline text-uppercase">
+						<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">F.A.Q.</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Company</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+					</ul>
+					<div>Copyright Yoursite.com | All Rights Reserved</div>
+					<a href="#"><img src="img/header-logo.png" alt="YourWebsite"></a>
+				</div>
 			</div>
 		</div>
 	</footer>
